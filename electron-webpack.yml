@@ -1,0 +1,9 @@
+# electronWebpack:
+commonSourceDirectory: src/common
+title: Electron-Meeting-Demo
+main:
+  sourceDirectory: src/main
+  webpackConfig: scripts/main.config.js
+renderer:
+  webpackConfig: scripts/renderer.config.js
+  sourceDirectory: src/renderer
